@@ -1,3 +1,12 @@
 [submodule "syntax"]
 	path = syntax
 	url = git@github.com:rescript-lang/syntax.git
+[submodule "rescript_projs/syntax"]
+	path = rescript_projs/syntax
+	url = git@github.com:rescript-lang/syntax.git
+[submodule "rescript_projs/rescript-vscode"]
+	path = rescript_projs/rescript-vscode
+	url = git@github.com:rescript-lang/rescript-vscode.git
+[submodule "rescript_projs/rescript-react"]
+	path = rescript_projs/rescript-react
+	url = git@github.com:rescript-lang/rescript-react.git
