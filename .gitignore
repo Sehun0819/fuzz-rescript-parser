@@ -1,0 +1,6 @@
+# fuzzing input corpus
+rs_files
+rs_files_unique
+
+# report
+fuzz_report

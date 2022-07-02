@@ -50,8 +50,8 @@ This is an example repository of a [fuzing tutorial](https://sehun0819.github.io
   You will see an interface like below, which shows you fuzzing status.
   ![image](img/aflplusplus.png)
 
-- Fuzzed inputs can be found in `~/fuzz_report/default/crashes/`. Execute parser with found input to detect bugs. To trace a call stack, activate an OCaml flag.
+- Fuzzed inputs can be found in `./fuzz_report/default/crashes/`. Execute parser with found input to detect bugs. To trace a call stack, activate an OCaml flag.
   ```sh
   export OCAMLRUNPARAM=b
-  ~/syntax/_build/default/cli/res_cli.exe ~/fuzz_report/default/crashes/<fuzzed input>
+  ./syntax/_build/default/cli/res_cli.exe ./fuzz_report/default/crashes/<fuzzed input>
   ```
